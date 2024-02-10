@@ -2,6 +2,9 @@ body {
   background-color: silver;
   font-family: "Montserrat", sans-serif;
 }
+a {
+  color: rgb(159, 104, 104);
+}
 .application {
   background: white;
   max-width: 600px;
@@ -9,4 +12,70 @@ body {
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
+}
+header {
+  border-bottom: 1px solid silver;
+  padding: 0 0 30px 0;
+}
+.search-form-input {
+  background-color: silver;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+.search-form-input-button {
+  background-color: rgb(159, 104, 104);
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: black;
+}
+main {
+  padding: 30px 0;
+}
+.app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.app-details {
+  font-size: 16px;
+  color: silver;
+  line-height: 20px;
+}
+.app-details strong {
+  color: rgb(159, 104, 104);
+}
+.app-container {
+  display: flex;
+}
+.app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+.app-temperature {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.app-unit {
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+.all-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  border-top: 1px solid silver;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
 }
