@@ -98,3 +98,7 @@ footer {
 .weather-forecast-temperature {
   font-size: 13px;
 }
+
+.weather-forecast-icon {
+  width: 80px;
+}
